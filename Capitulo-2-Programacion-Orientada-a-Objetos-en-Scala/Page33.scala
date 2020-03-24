@@ -2,4 +2,8 @@ class MiPrimeraClase {
     val a = 1
 }
 
-val o1 = new MiPrimeraClase
+object Page33 {
+    def main(args: Array[String]) {
+        val o1 = new MiPrimeraClase
+    }
+}
