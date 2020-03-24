@@ -1,11 +1,15 @@
-def f(x: Int, y: Int): Int = {
-    val z = 5
-    x+y+z
-}
+object Page20 {
+    def main(args: Array[String]) {
+        println(f(g(3), g(5)))
+    }
 
-def g(z: Int): Int = {
-    val x = 10
-    z + x
-}
+    def f(x: Int, y: Int): Int = {
+        val z = 5
+        x+y+z
+    }
 
-println(f(g(3), g(5)))
+    def g(z: Int): Int = {
+        val x = 10
+        z + x
+    }
+}
